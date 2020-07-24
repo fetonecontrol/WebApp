@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/frederickernest/Desktop/Web App/Vacation.csproj",
+  "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Vacation.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,18 +2961,58 @@
   "RootNamespace": "Vacation",
   "Documents": [
     {
-      "FilePath": "/Users/frederickernest/Desktop/Web App/Shared/Footer.cshtml",
-      "TargetPath": "Shared\\Footer.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Vendor/New.cshtml",
+      "TargetPath": "Views\\Vendor\\New.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Web App/Views/Home/Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Vendor/DeleteAll.cshtml",
+      "TargetPath": "Views\\Vendor\\DeleteAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Order/New.cshtml",
+      "TargetPath": "Views\\Order\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Vendor/Show.cshtml",
+      "TargetPath": "Views\\Vendor\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Order/Show.cshtml",
+      "TargetPath": "Views\\Order\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Order/Index.cshtml",
+      "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Vendor/Index.cshtml",
+      "TargetPath": "Views\\Vendor\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Web App/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Views/Order/DeleteAll.cshtml",
+      "TargetPath": "Views\\Order\\DeleteAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/Shared/Footer.cshtml",
+      "TargetPath": "Shared\\Footer.cshtml",
       "FileKind": "mvc"
     }
   ],
