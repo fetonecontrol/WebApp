@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 
-namespace ToDoList.Models
+namespace WebApp.Models
 {
   public class Vendor
   {
     private static List<Vendor> _instances = new List<Vendor> { };
     public string Name { get; set; }
     public int Id { get; }
-    public List<Order> Items { get; set; }
+    public List<Order> Orders { get; set; }
 
     public Vendor(string vendorName)
     {
@@ -22,12 +22,12 @@ namespace ToDoList.Models
       _instances.Clear();
     }
 
-    public static List<Order> GetAll()
+    public static List<Vendor> GetAll()
     {
       return _instances;
     }
 
-    public static Order Find(int searchId)
+    public static Vendor Find(int searchId)
     {
       return _instances[searchId - 1];
     }

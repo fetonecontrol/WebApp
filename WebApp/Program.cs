@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Vacations
+namespace WebApp
 {
   public class Program
   {

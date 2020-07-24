@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Vacations
+namespace WebApp
 {
   public class Startup
   {
@@ -35,7 +35,7 @@ namespace Vacations
       
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("Ah heck, we're broken ya'll.");
       });
     }
   }  

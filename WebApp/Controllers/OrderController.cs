@@ -7,7 +7,7 @@ namespace WebApp.Controllers
 public class OrderController : Controller
   {
     [HttpGet("/vendor/{vendorID}/order")]
-    public ActionResult New(int vendorID)
+    public ActionResult New(int vendorId)
     {
       Order order = Order.Find(vendorId);
       return View(order);

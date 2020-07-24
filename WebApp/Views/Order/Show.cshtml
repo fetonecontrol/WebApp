@@ -1,0 +1,11 @@
+@using WebApp.Models;
+
+<h1> Order Details: </h1>
+
+<h2>@Model["order"].Title</h2>
+<h2>@Model["Description"].Description</h2>
+<h2>@Model["Date"].Date</h2>
+<h3>Vendor: @Model["vendor"].Name</h3>
+
+<a href='/vendor/@Model["vendor"].Id/order/new'>Add another order</a>
+<a href='/vendor'>View all Vendors</a>

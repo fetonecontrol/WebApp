@@ -1,0 +1,14 @@
+@using WebApp.Models;
+
+<h3>Here are all the Orders for the Selected Vendor:</h3>
+
+<ol>
+@foreach (Order order in @Model["order"])
+{
+  <li><a href='/vendor/@Model["vendor"].Id/order/@order.Id'>@order.Title</a></li>
+}
+</ol>
+
+<p><a href='/vendor/@Model["vendor"].Id/order/new'>Add a new order</a></p>
+<p><a href='/vendor'>Return to vendor list</a></p>
+<p><a href='/'>Return to Main Page</a></p>
