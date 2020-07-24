@@ -34,12 +34,12 @@ namespace WebApp.Controllers
         model.Add("order", vendorOrders);
         return View(model);
       }
-      [HttpPost("/vendor/{vendorId}/order/new")]
-      public ActionResult Create(int vendorId, string orderTitle, string orderDescription, int orderDate)
+      [HttpPost("/vendor/{vendorId}/order")]
+      public ActionResult Create(int vendorId, string title, string description, int date)
       {
       Dictionary<string, object> model = new Dictionary<string, object>();
       Vendor foundVendor = Vendor.Find(vendorId);
-      Order newOrder = new Order(orderTitle, orderDescription, orderDate);
+      Order newOrder = new Order(title, description, date);
       foundVendor.AddOrder(newOrder);
       List<Order> vendorOrders = foundVendor.Orders;
       model.Add("order", vendorOrders);
