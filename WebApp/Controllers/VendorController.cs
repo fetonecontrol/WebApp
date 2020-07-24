@@ -25,16 +25,16 @@ namespace WebApp.Controllers
         return RedirectToAction("Index");
       }
       [HttpGet("vendor/{id}")]
-      public ActionResult Show(int Id)
+      public ActionResult Show(int id)
       {
         Dictionary<string, object> model = new Dictionary<string, object>();
-        Vendor selectedVendor = Vendor.Find(Id);
+        Vendor selectedVendor = Vendor.Find(id);
         List<Order> vendorOrders = selectedVendor.Orders;
         model.Add("vendor", selectedVendor);
         model.Add("order", vendorOrders);
         return View(model);
       }
-      [HttpPost("/vendor/{VendorId}/order")]
+      [HttpPost("/vendor/{vendorId}/order/new")]
       public ActionResult Create(int vendorId, string orderTitle, string orderDescription, int orderDate)
       {
       Dictionary<string, object> model = new Dictionary<string, object>();
@@ -42,9 +42,9 @@ namespace WebApp.Controllers
       Order newOrder = new Order(orderTitle, orderDescription, orderDate);
       foundVendor.AddOrder(newOrder);
       List<Order> vendorOrders = foundVendor.Orders;
-      model.Add("orders", vendorOrders);
+      model.Add("order", vendorOrders);
       model.Add("vendor", foundVendor);
-      return View("Show", model);
+      return View("show", model);
       }
     }
 

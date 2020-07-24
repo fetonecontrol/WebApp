@@ -6,11 +6,11 @@ namespace WebApp.Controllers
 {
 public class OrderController : Controller
   {
-    [HttpGet("/vendor/{vendorID}/order")]
+    [HttpGet("/vendor/{vendorID}/order/new")]
     public ActionResult New(int vendorId)
     {
-      Order order = Order.Find(vendorId);
-      return View(order);
+      Vendor vendor = Vendor.Find(vendorId);
+      return View(vendor);
     }
     [HttpGet("/vendor/vendorId/order/orderId")]
     public ActionResult Show(int vendorId, int orderId)
