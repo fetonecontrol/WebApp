@@ -12,7 +12,7 @@ public class OrderController : Controller
       Vendor vendor = Vendor.Find(vendorId);
       return View(vendor);
     }
-    [HttpGet("/vendor/vendorId/order/{orderId}")]
+    [HttpGet("/vendor/{vendorId}/order/{orderId}")]
     public ActionResult Show(int vendorId, int orderId)
     {
       Order order = Order.Find(orderId);
