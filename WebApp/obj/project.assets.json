@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/WebApp.csproj",
+      "projectUniqueName": "/Users/frederickernest/Desktop/Epicodus/WebApp.Solution/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/WebApp.csproj",
+      "projectPath": "/Users/frederickernest/Desktop/Epicodus/WebApp.Solution/WebApp/WebApp.csproj",
       "packagesPath": "/Users/frederickernest/.nuget/packages/",
-      "outputPath": "/Users/frederickernest/Desktop/WebApp.Solution/WebApp/obj/",
+      "outputPath": "/Users/frederickernest/Desktop/Epicodus/WebApp.Solution/WebApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
