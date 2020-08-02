@@ -18,5 +18,11 @@ namespace WebApp.Tests
       Assert.AreEqual(12, newOrder.Date);
       Assert.AreEqual(1, newOrder.Id);
     }
+    // [TestMethod]
+    // public void Order_GetAllOrder_Order()
+    // {
+    //   Order newOrder = new Order("Test", "For Testing", 12);
+    //   Assert.AreEqual(newOrder, Order.GetAll());
+    // }
   }
 }
