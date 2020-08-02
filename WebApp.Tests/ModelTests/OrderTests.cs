@@ -16,7 +16,7 @@ namespace WebApp.Tests
       Assert.AreEqual("Test", newOrder.Title);
       Assert.AreEqual("For Testing", newOrder.Description);
       Assert.AreEqual(12, newOrder.Date);
+      Assert.AreEqual(1, newOrder.Id);
     }
-    
   }
 }
